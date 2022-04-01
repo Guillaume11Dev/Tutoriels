@@ -1,6 +1,6 @@
 commande pour créé la vue :
 
-Create view PhotoMoyennes as( Select refPhoto , avg(note) as noteMoyenne from Noter group by refPhoto;
+Create view PhotoMoyennes as( Select refPhoto , avg(note) as noteMoyenne from Noter group by refPhoto);
 
 requète : 
                              
